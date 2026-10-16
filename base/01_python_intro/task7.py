@@ -1,0 +1,1 @@
+find_modified_max_argmax = lambda L, f: (m := max(V), V.index(m)) if (V := [f(x) for x in L if type(x) == int]) else ()
